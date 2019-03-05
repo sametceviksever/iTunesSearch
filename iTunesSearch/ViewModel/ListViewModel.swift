@@ -130,6 +130,12 @@ extension ListViewModel: UISearchBarDelegate {
 
 extension ListViewModel: UICollectionViewDataSource {
   public func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    if medias.count == 0 {
+      collectionView.setEmptyMessage()
+    } else {
+      collectionView.restore()
+    }
+    
     return medias.count
   }
   

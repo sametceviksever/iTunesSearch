@@ -8,16 +8,16 @@
 
 import UIKit
 
-class BaseView: UIView, NibLoadProtocol {
+public class BaseView: UIView, NibLoadProtocol {
   
   // MARK: - Initializer
-  override init(frame: CGRect) {
+  public override init(frame: CGRect) {
     super.init(frame: frame)
     self.setupNib()
   }
   
   // MARK: - NSCoding
-  required init?(coder aDecoder: NSCoder) {
+  public required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     self.setupNib()
   }

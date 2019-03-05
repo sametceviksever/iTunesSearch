@@ -18,4 +18,16 @@ extension UICollectionView {
   func dequeueReusableCell<T: UICollectionViewCell> (forIndexPath indexPath: IndexPath) -> T where T: Reusable {
     return dequeueReusableCell(withReuseIdentifier: T.reuseIdentifier, for: indexPath as IndexPath) as! T
   }
+  
+  func setEmptyMessage() {
+    
+    let view = EmptyState()
+    self.backgroundView = view;
+    view.configure(with: "Empty State Title".local, message: "Empty State".local)
+    view.sizeToFit()
+  }
+  
+  func restore() {
+    self.backgroundView = nil
+  }
 }

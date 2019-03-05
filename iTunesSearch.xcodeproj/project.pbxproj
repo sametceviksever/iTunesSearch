@@ -49,6 +49,8 @@
 		A2BB79B1222E4E5100A43678 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2BB79B3222E4E5100A43678 /* Localizable.strings */; };
 		A2BB79B6222E4EA500A43678 /* iTunesSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB79B5222E4EA400A43678 /* iTunesSearchRequest.swift */; };
 		A2BB79B9222E4FF600A43678 /* MediaTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BB79BB222E4FF600A43678 /* MediaTypeVC.xib */; };
+		A2BB79C7222E8C8B00A43678 /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BB79C6222E8C8B00A43678 /* EmptyState.swift */; };
+		A2BB79C9222E8DB100A43678 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2BB79C8222E8DB100A43678 /* EmptyState.xib */; };
 		DB94B896FD3F2FB1BCACAB39 /* Pods_iTunesSearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62F8A23960A142B75D9DAF6 /* Pods_iTunesSearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +103,8 @@
 		A2BB79BA222E4FF600A43678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MediaTypeVC.xib; sourceTree = "<group>"; };
 		A2BB79C3222E508600A43678 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MediaTypeVC.strings; sourceTree = "<group>"; };
 		A2BB79C5222E508A00A43678 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/MediaTypeVC.strings; sourceTree = "<group>"; };
+		A2BB79C6222E8C8B00A43678 /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		A2BB79C8222E8DB100A43678 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 		A62F8A23960A142B75D9DAF6 /* Pods_iTunesSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesSearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB7636D1E7526D31AB2471E /* Pods-iTunesSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesSearch/Pods-iTunesSearch.release.xcconfig"; sourceTree = "<group>"; };
 		FF697A17C814368F2A373733 /* Pods-iTunesSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iTunesSearch/Pods-iTunesSearch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +226,8 @@
 			children = (
 				A2BB7987222E4D8400A43678 /* ListCVC.swift */,
 				A2BB7986222E4D8400A43678 /* ListCVC.xib */,
+				A2BB79C6222E8C8B00A43678 /* EmptyState.swift */,
+				A2BB79C8222E8DB100A43678 /* EmptyState.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -391,6 +397,7 @@
 				A2BB7988222E4D8400A43678 /* ListCVC.xib in Resources */,
 				A2BB794A222E4BF500A43678 /* Assets.xcassets in Resources */,
 				A2BB79B9222E4FF600A43678 /* MediaTypeVC.xib in Resources */,
+				A2BB79C9222E8DB100A43678 /* EmptyState.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +472,7 @@
 				A2BB79A9222E4D9A00A43678 /* ContentType.swift in Sources */,
 				A2BB7994222E4D8800A43678 /* DispatchWorkItemExtension.swift in Sources */,
 				A2BB7969222E4D5F00A43678 /* JSONDecodable.swift in Sources */,
+				A2BB79C7222E8C8B00A43678 /* EmptyState.swift in Sources */,
 				A2BB7978222E4D7200A43678 /* DetailVC.swift in Sources */,
 				A2BB7993222E4D8800A43678 /* ImageViewExtension.swift in Sources */,
 				A2BB799F222E4D9500A43678 /* URLRequestProtocol.swift in Sources */,
